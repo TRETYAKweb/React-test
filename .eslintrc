@@ -9,6 +9,8 @@
             {
                 "SwitchCase": 1
             }
-        ]
+        ],
+        "jsx-quotes": ["error", "prefer-single"],
+        "react/jsx-equals-spacing": "off"
     }
 }
