@@ -1,8 +1,6 @@
 {
     "parser": "@babel/eslint-parser",
-    "extends": [
-        "@sotream/eslint-config-react-js"
-    ],
+    "extends": ["@sotream/eslint-config-react-js"],
     "rules": {
         "no-void": "off",
         "indent": [
