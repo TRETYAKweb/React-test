@@ -4,9 +4,9 @@ module.exports = {
     useTabs: false,
     tabWidth: 4,
     semi: true,
-    trailingComma: "all",
+    trailingComma: 'all',
     bracketSpacing: true,
-    arrowParens: "always",
+    arrowParens: 'always',
     importOrderSeparation: false,
-    endOfLine: "auto",
+    endOfLine: 'auto',
 };
