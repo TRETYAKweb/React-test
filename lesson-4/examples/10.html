@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>10</title>
+
+        <style>
+            select {
+                padding-right: 20px;
+                font-size: 16px;
+                height: 40px;
+                background: white;
+                margin-bottom: 20px;
+
+            }
+
+            br {
+                margin-bottom: 50px;
+            }
+
+            select[multiple] {
+                min-height: 120px;
+                padding-right: 0;
+            }
+            input,
+            textarea {
+                height: 40px;
+                margin-bottom: 20px;
+                width: 300px;
+                display: block;
+                padding: 10px;
+                box-sizing: border-box;
+            }
+
+            textarea {
+                height: 100px;
+            }
+
+
+            [type="submit"] {
+                height: 40px;
+                background: lightblue;
+                cursor: pointer;
+                -webkit-appearance: unset;
+                border-radius: 20px;
+                border: unset;
+                transition: 0.3s all ease-in-out;
+            }
+            [type="submit"]:hover {
+                color: white;
+                background: blue;
+                transition: 0.3s all ease-in-out;
+            }
+
+            button {
+                display: flex;
+                background: pink;
+                font-size: 20px;
+                padding: 10px;
+                align-items: center;
+                cursor: pointer;
+            }
+
+            button:hover {
+                background: #F05DC5;
+            }
+
+
+            button img {
+                width: 40px;
+                height: auto;
+                margin-right: 10px;
+
+            }
+        </style>
+    </head>
+    <body>
+
+
+        <form action="" method="">
+
+            <input type="text" name="name" placeholder="Name">
+            <input type="date" name="birthday" placeholder="birthday">
+            <input type="email" name="email-address" placeholder="email-address">
+
+            <select name="day">
+                <option value="Friday" selected>Пятница</option>
+                <option value="Saturday">Суббота</option>
+                <option value="Sunday">Воскресенье</option>
+            </select>
+            <textarea name="feedback" id="feedbackTextarea" placeholder="Leave your feedback here"></textarea>
+
+
+            <button type="submit">
+                <span>Отправить</span>
+
+                <img src="img/sent.png" alt="">
+            </button>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>11</title>
+    <style>
+        input{
+			margin-left: 20px;
+			font-size: 20px; 
+		}
+
+		br{
+			margin-bottom: 50px;
+		}
+		button{
+			display: flex;
+			background: pink;
+			font-size: 20px;
+			padding: 10px;
+			align-items: center;
+			cursor: pointer;
+		}
+
+		button:hover{
+			background: #F05DC5;
+		}
+
+
+		button img{
+			width: 40px;
+			height: auto;
+			margin-right: 10px;
+
+		}
+	</style>
+</head>
+
+<body>
+    <form action="" method="">
+        <fieldset>
+            <legend>Выпить кофе ... ?</legend>
+            <label for="today">
+                <input type="radio" name="choice" value="today" id="today" checked>
+                сегодня
+            </label>
+            <label for="tomorrow">
+                <input type="radio" name="choice" value="tomorrow" id="tomorrow">
+                завтра
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Погладить кота ... ?</legend>
+            <label for="delay">
+                <input type="radio" name="time" value="delay" id="delay" checked>
+                через минуту
+            </label>
+            <label for="now">
+                <input type="radio" name="time" value="now" id="now">
+                сейчас
+            </label>
+        </fieldset>
+
+
+		<button>
+			<img src="img/sent.png" alt=""> 
+			<span>Отправить</span>
+		</button>
+    </form>
+</body>
+
+</html>

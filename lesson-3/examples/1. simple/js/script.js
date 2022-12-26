@@ -1,0 +1,1 @@
+console.log(`Всем привет! Меня запустили из ${location.pathname}`);
