@@ -9,4 +9,5 @@ module.exports = {
     arrowParens: 'always',
     importOrderSeparation: false,
     endOfLine: 'auto',
+    jsxSingleQuote: true,
 };
