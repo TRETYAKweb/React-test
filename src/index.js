@@ -7,7 +7,4 @@ import { App } from './App';
 // Instruments
 import './theme/main.scss';
 
-render(
-    <App />,
-    document.getElementById('root'),
-);
+render(<App />, document.getElementById('root'));
